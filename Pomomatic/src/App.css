@@ -1,0 +1,651 @@
+  html {
+
+    max-height: 500px;
+    width: 500px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 90px;
+ 
+  }
+  #announcement{
+    position: absolute;
+  margin-left: 30px;
+  
+  }
+
+
+#createprofilebutton{height: 55px;
+  width: 100px;
+  font-size: small;
+  align-items: end;
+  margin-right: -25px;
+  border-radius: 90px;
+
+  text-align: center;}
+#minutebar{
+display:block;
+height:120px;
+padding-right: 30px;
+
+}
+#secondbar {
+  display: block;
+  height: 120px;
+ 
+}
+
+#pomoh1{
+  height:50px;
+  width:500px;
+  padding-top: 10px;
+  margin-left:225px;
+}
+#pomoh2{
+    height: 100px;
+      width: 500px;
+      padding-top: 10px;
+      margin-left: 225px;
+}
+#pomoh3{height: 100px;
+  width: 500px;
+  padding-top: 10px;
+  margin-left: 225px;}
+#pomopic1, #pomopic2, #pomopic3
+{
+
+  height:100px;
+  width:200px;
+  border-color: black 2px;
+}
+  #pomobutton{height:55px;
+    width:100px;
+  font-size: small;
+  align-items: end;
+ margin-right: -30px;
+  border-radius:90px ;
+  text-align: center;
+  }
+#pomobox{
+height:100px;
+display: grid;
+grid-template-columns: 200px 200px 200px 200px;
+margin-top: -300px;
+border-radius: 90px;
+display:inline-flex;
+margin-left:-220px;
+padding:10px;
+padding-top:-155px;
+
+}
+
+
+ #playbutton
+{
+background-color: green;
+border: black 2px;
+height:90px;
+align-items: center;
+border-radius: 190px;
+padding-right: -30px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+
+#playbuttonp{
+padding-right: 5px;
+
+}
+
+    #pausebutton {
+      background-color: red;
+      height: 90px;
+      border: black 2px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    }
+
+ svg{  
+height:50px;
+ 
+}
+
+  #newprofilebox {
+        color: white;
+          border-radius: 190px;
+          background-color: rgba(197, 193, 193, 0.202);
+          align-items: center;
+          width: 900px;
+          height: 910px;
+          text-align: center;
+          margin-left: 50%;
+          font-family: indie-flower;
+          margin-top: 0px;
+          animation: fade-in 1s;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  }
+    #loginform 
+    { 
+      border-radius: 290px;
+      background-color: rgba(23, 35, 35, 0.241);
+      align-items: center;
+      display: block;
+      color: whitesmoke;
+      width: 40%;
+      height: 450px;
+      text-align: center;
+      margin-left: 30%;
+      padding-top: 5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    }
+
+#logbutton, #profilebutton,#pomobutton{
+  margin-left: -30px;
+}
+ 
+    #logbutton{height: 55px;
+      width: 100px;
+      font-size: small;
+      align-items: end;
+      margin-right: -25px;
+      border-radius: 90px;
+     
+      text-align: center;}
+  #newprofileform 
+  {
+  border-radius: 290px;
+  background-color: rgba(23, 35, 35, 0.241);
+  align-items: center;
+  display: block;
+  color: whitesmoke;
+  font-size: 20px;
+  width: 50%;
+  height: 450px;
+  text-align: center;
+  margin-left: 25%;
+padding-top: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+
+  }
+
+  h3 
+  {
+    height: fit-content;
+    width: fit-content;
+    font-size: larger;
+    border-radius: 90px;
+    color: whitesmoke;
+  }
+
+
+  h1 
+  {
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(122, 115, 115);
+    border-radius: 90px;
+    margin-left: 150px;
+
+  }
+ 
+#inputbox{
+width:500px;
+height:200px;
+}
+
+
+  #root 
+  {
+    align-items: center;
+    display: block;
+    width: 800px;
+    height: 800px;
+  }
+
+  form {
+ 
+    color: black;
+    border-radius: 40px;
+  }
+
+.answer3
+{
+  border-radius: 290px;
+  background-color: rgba(23, 35, 35, 0.452);
+  align-items: center;
+  display: block;
+  color: whitesmoke;
+  width: 920px;
+  height: 1075px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 11px;
+  padding-top: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+
+
+  #pomoinfo 
+{
+  color: white;
+  border-radius: 190px;
+  background-color: rgba(197, 193, 193, 0.202);
+  align-items: center;
+  width: fit-content;
+  height: 1270px;
+  text-align: center;
+  margin-left: 50%;
+  font-family: indie-flower;
+  margin-top: 0px;
+  animation: fade-in 1s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  }
+
+
+
+.greeting-container
+{
+  height: 200px;
+  width:200px;
+  border-radius: 90px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+ 
+}
+
+@keyframes fade-up{
+0%{
+  opacity:0;
+  transform: translate(-10px) scale(1.9);
+}
+100% {opacity:1;
+transform: translateY(0px) scale(1);
+}
+}
+
+@keyframes fade-in {
+ 0%{opacity:0;
+ 
+} 
+100%{opacity:100}
+}
+
+
+  .greeting {
+    color: whitesmoke;
+    height: 40px;
+    width: 250px;
+    color: black;
+    padding-left: 40px;
+    font-size: larger;
+  }
+#timerbar{
+  display: inline-flex;
+width:300px;
+height:300px;
+margin-top: 70px;  
+margin-bottom: 100px;
+background-color: rgb(0, 74, 20);
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+#buttonbar{
+  width: 527px;
+  height: 127px;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 150px;
+ width: 150px;
+ margin-top: -40px;
+  }
+
+
+ 
+  #custompomobutton {
+    height: 50px
+  }
+
+ 
+
+  #timerbox {
+
+    display: grid;
+    grid-template-rows: 127px 127px 127px 127px;
+    height: fit-content;
+    
+    color: whitesmoke;
+    width: 700px;
+    border-radius: 90px;
+    background-color: rgb(138, 138, 138);
+    align-items: center;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+ 
+    padding-bottom: 50px;
+    height: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  }
+
+
+#seconds, #minutes, #colon{
+  margin-left: 150px;
+  
+}
+
+  #seconds {
+font-size: 70px;
+  
+    color: white;
+ 
+ 
+    height: fit-content;
+    width: 70px;
+    animation: fade-in .5s;
+    border-radius: 90px;
+    margin-left: 50px;
+  }
+
+  #minutes {
+    font-size: 70px;
+ 
+  
+    color: white;
+  
+    height: fit-content;
+    width: 40px;
+    border-radius: 50px;
+  }
+
+  #colon {
+
+  font-size:90px;
+   
+  
+    color: white;
+    
+    width: 40px;
+    border-radius: 90px;
+
+   margin-left:50px
+  }
+
+
+  #menu {
+    
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
+ 
+    position: absolute;
+    height:48px;
+  
+    text-align: center;
+  
+    margin-bottom:400px;
+    border-radius: 50px;
+    margin-left: 100px;
+    width:490px;
+  }
+
+
+
+#createprofilebox{color: white;
+  border-radius: 190px;
+  background-color: rgba(197, 193, 193, 0.13);
+  align-items: center;
+  width: 650px;
+  height: 930px;
+  text-align: center;
+  margin-left: 65%;
+  font-family: indie-flower;
+  margin-top: -43px;
+  animation: fade-in 1s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+   
+
+ 
+  
+  .font-link {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+#breaktimerbar{
+display: inline-flex;
+width: 530px;
+height: 72px;
+border-radius: 90px;
+ margin-top: 564px;
+background-color: rgb(93, 4, 4);
+align-items: center;
+position:absolute;
+visibility: hidden;
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+ 
+#profilebutton{
+height: 55px;
+  width: 100px;
+  font-size: small;
+  align-items: end;
+  margin-right: -30px;
+  border-radius: 90px;
+  text-align: center;
+
+}
+
+  .bg-body-tertiary {
+    width: 1000px;
+  }
+
+  
+
+  #profilebutton:hover {
+    color: rgb(8, 0, 255)
+  }
+.plist {
+
+  background-color: rgb(185, 178, 178);
+  height:60px;
+  width: 250px;
+  font-size: 30px;
+  border-radius: 100px;
+  border-style: solid;
+  padding-bottom: 20px;
+  border-color: rgb(164, 149, 149);
+  margin-bottom: 10px;
+  text-align: start;
+  animation: fade-in 2.5s;
+ 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+
+}
+
+ 
+
+
+
+#deletebutton{
+ height:35px;
+ width:35px;
+ font-size: 15px; 
+ text-align: center;
+ margin-top: 25px;
+padding-right: -20px;
+text-indent: -5px;
+border-radius: 90px;
+background-color: rgb(40, 24, 0);
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+#loginbox {
+  color: white;
+  border-radius: 190px;
+  background-color: rgba(197, 193, 193, 0.13);
+  align-items: center;
+  width: 650px;
+  height: 930px;
+  text-align: center;
+  margin-left: 65%;
+  font-family: indie-flower;
+  margin-top: -43px;
+  animation: fade-in 1s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+  .loginbar {
+    display: inline-flex;
+    align-self: center;
+    height: 250;
+    width: 1000px;
+    max-width: 200;
+ 
+    background-color: rgb(89, 101, 101);
+    align-items: 'center';
+    color: whitesmoke;
+    border-radius:5px;
+    margin-left: 150px;
+   animation: fade-in 2s;
+   margin-top: 150px;
+   border-color: black 2px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  }
+.backing
+{width:900px;
+display: flex;
+}
+
+ 
+
+
+.quotes
+{
+ 
+ 
+ color: white;
+ 
+text-align: center;
+ 
+height: 170px;
+width: 200px;
+}
+    #tomatopic {
+      height: 300px;
+      width: 300px;
+  
+    }
+
+#tomatopic2 {
+height: 150px;
+ width: 150px;
+padding-top: 30px;
+padding-left:55px;
+             }
+  #timerbutton {
+    height: 50px;
+   
+  }
+ 
+
+.welcome{width:55%;
+margin-left: 25%;
+margin-top: 10px;
+background-color: rgba(23, 35, 35, 0.241);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+
+#nameinput{width:50px;
+padding-right: 50px;
+margin-right: 30px;
+}
+
+
+ body{min-height:50%}
+#logoutbutton{ 
+  margin-top: 25px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+#quotes {
+  color: whitesmoke;
+  display: inline-flex;
+}
+
+#timerbar{width:530px;
+  height:72px;
+align-items: center;
+ border-radius: 190px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+#overbar {
+display: inline-flex;
+  width: 530px;
+  height: 72px;
+  border-radius: 90px;
+  margin-top: 699px;
+  background-color: rgb(0, 149, 255);
+  align-items: center;
+  position: absolute;
+  visibility: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+ 
+
+
+ #inputbar{display:inline-flex;
+height:147px;
+width: 600px;
+margin-left: 50px;
+padding-top: 20px;
+
+}
+ 
